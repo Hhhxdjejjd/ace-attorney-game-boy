@@ -1,6 +1,7 @@
 #include <gb/gb.h>
 #include <stdio.h>
+#include "Export.c"
 
 void main(){
-    printf("the clock wasn't 3 hours slow it 9 hours fast");
+    set_sprite_data(0, 2, Export);
 }
